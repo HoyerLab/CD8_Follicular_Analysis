@@ -33,37 +33,13 @@ GEO accession: [GSE112540](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GS
     buildindex(basename="mus_reference_GRCm38_index",reference=ref)
     
     ## Alignment
-    align(index="~/data/GCF_000001635.26_GRCm38.p6/index/mus_reference_GRCm38_index",
-	readfile1="~/data/follicular_fastqs/CD4_Tfh_1_R1.fastq",
-	readfile2="~/data/follicular_fastqs/CD4_Tfh_1_R2.fastq", 
-	nBestLocations=10, 
-	output_file="~/data/follicular_fastqs/CD4_Tfh_1_alPEv3.BAM",
-	nthreads=16,
-	phredOffset=33)
+    align(index="~/data/GCF_000001635.26_GRCm38.p6/index/mus_reference_GRCm38_index",readfile1="~/data/follicular_fastqs/CD4_Tfh_1_R1.fastq",readfile2="~/data/follicular_fastqs/CD4_Tfh_1_R2.fastq", nBestLocations=10, output_file="~/data/follicular_fastqs/CD4_Tfh_1_alPEv3.BAM",nthreads=16,phredOffset=33)
 
-    align(index="~/data/GCF_000001635.26_GRCm38.p6/index/mus_reference_GRCm38_index",
-      readfile1="~/data/follicular_fastqs/CD4_Tfh_2_R1.fastq",
-      readfile2="~/data/follicular_fastqs/CD4_Tfh_2_R2.fastq", 
-      nBestLocations=10, 
-      output_file="~/data/follicular_fastqs/CD4_Tfh_2_alPEv3.BAM",
-      nthreads=16,
-      phredOffset=33)
+	align(index="~/data/GCF_000001635.26_GRCm38.p6/index/mus_reference_GRCm38_index",readfile1="~/data/follicular_fastqs/CD4_Tfh_2_R1.fastq",readfile2="~/data/follicular_fastqs/CD4_Tfh_2_R2.fastq", nBestLocations=10, output_file="~/data/follicular_fastqs/CD4_Tfh_2_alPEv3.BAM",nthreads=16,phredOffset=33)
 
-    align(index="~/data/GCF_000001635.26_GRCm38.p6/index/mus_reference_GRCm38_index",
-      readfile1="~/data/follicular_fastqs/CD8_Tfc_1_R1.fastq",
-      readfile2="~/data/follicular_fastqs/CD8_Tfc_1_R2.fastq", 
-      nBestLocations=10, 
-      output_file="~/data/follicular_fastqs/CD8_Tfc_1_alPEv3.BAM",
-      nthreads=16,
-      phredOffset=33)
+	align(index="~/data/GCF_000001635.26_GRCm38.p6/index/mus_reference_GRCm38_index",readfile1="~/data/follicular_fastqs/CD8_Tfc_1_R1.fastq",readfile2="~/data/follicular_fastqs/CD8_Tfc_1_R2.fastq", nBestLocations=10, output_file="~/data/follicular_fastqs/CD8_Tfc_1_alPEv3.BAM",nthreads=16,phredOffset=33)
 
-    align(index="~/data/GCF_000001635.26_GRCm38.p6/index/mus_reference_GRCm38_index",
-      readfile1="~/data/follicular_fastqs/CD8_Tfc_2_R1.fastq",
-      readfile2="~/data/follicular_fastqs/CD8_Tfc_2_R2.fastq", 
-      nBestLocations=10, 
-      output_file="~/data/follicular_fastqs/CD8_Tfc_2_alPEv3.BAM",
-      nthreads=16,
-      phredOffset=33)
+	align(index="~/data/GCF_000001635.26_GRCm38.p6/index/mus_reference_GRCm38_index",readfile1="~/data/follicular_fastqs/CD8_Tfc_2_R1.fastq",readfile2="~/data/follicular_fastqs/CD8_Tfc_2_R2.fastq", nBestLocations=10, output_file="~/data/follicular_fastqs/CD8_Tfc_2_alPEv3.BAM",nthreads=16,phredOffset=33)
 
 
 ## Requirements
