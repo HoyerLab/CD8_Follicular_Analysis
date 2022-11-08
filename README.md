@@ -5,6 +5,10 @@ You can find a free version of the article on PubMed.
 
 PMID: 34274825
 
+
+<img src = "Valentine_CD8Tfc_2021/plots/Valentine_CD8Tfc_2021_figure4_heatmap1.png" width ="500" /> <img src = "Valentine_CD8Tfc_2021/plots/Valentine_CD8Tfc_2021_figure4_heatmap2.png" width ="500" />
+
+
 ## Data
 
 Reference genome: GRCm38.p6
@@ -20,21 +24,49 @@ GEO accession: [GSE112540](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GS
 
 ## Requirements
 
-[fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+CLI Tools:
 
-[trimmomatic](https://doi.org/10.1093/bioinformatics/btu170)
+- [fastqc](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
-[featureCounts](https://doi.org/10.1093/bioinformatics/btt656)
+- [trimmomatic](https://doi.org/10.1093/bioinformatics/btu170)
 
-[Rsubread](https://bioconductor.org/packages/release/bioc/html/Rsubread.html)
+R Packages:
 
-[limma](https://bioconductor.org/packages/release/bioc/html/limma.html)
+- [featureCounts](https://doi.org/10.1093/bioinformatics/btt656)
 
-[edgeR](https://bioconductor.org/packages/release/bioc/html/edgeR.html)
+- [Rsubread](https://bioconductor.org/packages/release/bioc/html/Rsubread.html)
 
-[clusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html)
+- [limma](https://bioconductor.org/packages/release/bioc/html/limma.html)
 
-[tidyverse](https://www.tidyverse.org)
+- [edgeR](https://bioconductor.org/packages/release/bioc/html/edgeR.html)
+
+- [clusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html)
+
+- [tidyverse](https://www.tidyverse.org)
+
+- [extrafont](https://cran.r-project.org/web/packages/extrafont/index.html)
+
+- [gplots](https://cran.r-project.org/web/packages/gplots/index.html)
+
+- [AnnotationDbi](https://bioconductor.org/packages/release/bioc/html/AnnotationDbi.html)
+
+- [org.Mm.eg.db](https://bioconductor.org/packages/release/data/annotation/html/org.Mm.eg.db.html)
 
 
- 
+## Citation
+
+Please cite if our repository was useful for your research:
+````
+@article{VALENTINE2021102690,
+  author = {Kristen M. Valentine and Genevieve N. Mullins and Oscar A. Davalos and Lek Wei Seow and Katrina K. Hoyer},
+  title = {CD8 follicular T cells localize throughout the follicle during germinal center reactions and maintain cytolytic and helper properties},
+  journal = {Journal of Autoimmunity},
+  volume = {123},
+  pages = {102690},
+  year = {2021},
+  issn = {0896-8411},
+  doi = {https://doi.org/10.1016/j.jaut.2021.102690},
+  url = {https://www.sciencedirect.com/science/article/pii/S0896841121000986},
+  keywords = {CD8 T follicular Cells, CXCR5+ CD8 T cell, Autoimmunity, Germinal center, T regulatory cell},
+}
+````
