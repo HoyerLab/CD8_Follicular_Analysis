@@ -6,7 +6,7 @@ You can find a free version of the article on PubMed.
 PMID: 34274825
 
 
-<img src = "Valentine_CD8Tfc_2021/plots/Valentine_CD8Tfc_2021_figure4_heatmap1.png" width ="500" /> <img src = "Valentine_CD8Tfc_2021/plots/Valentine_CD8Tfc_2021_figure4_heatmap2.png" width ="500" />
+<img src = "Valentine_CD8Tfc_2021/plots/Valentine_CD8Tfc_2021_figure4_heatmap1.png" width ="600" /> <img src = "Valentine_CD8Tfc_2021/plots/Valentine_CD8Tfc_2021_figure4_heatmap2.png" width ="600" />
 
 
 ## Data
