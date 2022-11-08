@@ -41,6 +41,29 @@ GEO accession: [GSE112540](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GS
 
 	align(index="~/data/GCF_000001635.26_GRCm38.p6/index/mus_reference_GRCm38_index",readfile1="~/data/follicular_fastqs/CD8_Tfc_2_R1.fastq",readfile2="~/data/follicular_fastqs/CD8_Tfc_2_R2.fastq", nBestLocations=10, output_file="~/data/follicular_fastqs/CD8_Tfc_2_alPEv3.BAM",nthreads=16,phredOffset=33)
 
+	## FeatureCounts
+	require(Rsubread)
+
+	gtf <- (file = "~/data/GCF_000001635.26_GRCm38.p6/test_GRCm38.p6_genomic.gtf")
+
+	setwd("~/data/follicular_fastqs/bam_v3")
+	bamdir <- ("~/data/follicular_fastqs/bam_v3")
+	bamfiles  <- dir(bamdir, pattern = ".BAM$")
+
+	# generate the counts matrices 
+	fc <- featureCounts(files=bamfiles, 
+		GTF.featureType="gene",
+		GTF.attrType="gene_id", 
+		annot.ext=gtf, 
+		isGTFAnnotationFile=TRUE, 
+		countMultiMappingReads=TRUE, 
+		fraction=TRUE, 
+		isPairedEnd = TRUE, 
+		countChimericFragments =FALSE, 
+		nthreads = 8)
+
+
+	save.image("follicular_analysis_v3.RData")
 
 ## Requirements
 
