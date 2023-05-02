@@ -1,4 +1,4 @@
-# CD8_Follicular_Analysis
+# CD8 Follicular Analysis
 Scripts for reproducing the RNA-seq analysis performed in the study: [CD8 follicular T cells localize throughout the follicle during germinal center reactions and maintain cytolytic and helper properties](https://doi.org/10.1016/j.jaut.2021.102690).
 
 You can find a free version of the article on PubMed.
